@@ -1,0 +1,4 @@
+[SIMILARITIES]
+min-similarity-lines=5
+max-line-length=79
+ignore-imports=yes

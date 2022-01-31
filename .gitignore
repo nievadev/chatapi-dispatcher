@@ -1,0 +1,9 @@
+*.pyc
+.idea/
+.venv/
+.vscode/
+*.log
+*.coverage
+.env1
+.env
+.mypy_cache/
