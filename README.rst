@@ -38,10 +38,12 @@ Production
 Development
 -----------
 
-This command will start a local development server.
+These commands will install the dependencies and start a local development server.
 
 ::
 
+    $ pipenv shell
+    $ pipenv install
     $ make dev
 
 Usage
@@ -62,8 +64,8 @@ Coverage
 Code-check
 ----------
 
-There's a make statement that uses mypy, flake8, and pylint. This project is entirely typed
-and mypy compliant.
+There's a make statement that uses mypy, flake8, and pylint to check the code recursively.
+This project is entirely typed and mypy compliant.
 
 ::
 
