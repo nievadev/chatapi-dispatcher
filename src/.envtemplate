@@ -1,8 +1,11 @@
-PROD= # bool
+PROD= # Python-syntax-compliant bool
 API_URL=
 TEST_INSTANCE=
 TEST_TOKEN=
-TEST_PHONE= # at least 9 characters
+TEST_PHONE= # at least 9 characters, up to 13
+
+# If PROD is set to False, you can set a random string to the following
+# statements:
 
 INSTANCE_ID=
 EUREKA_SERVER=
@@ -10,3 +13,5 @@ INSTANCE_PORT=
 EUREKA_AUTH_USER=
 EUREKA_AUTH_PASSWORD=
 EUREKA_CONTEXT=
+
+# No fields must be empty!

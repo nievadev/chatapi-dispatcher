@@ -11,10 +11,11 @@ Introduction
 This is a project made at work, of which the .git folder has been removed to delete
 any records of sensible information (like credentials) of the past, that way this
 doesn't violate any conditions!
-The responsibility of this microservice is to comply to a standard, named and defined
+The responsibility of this microservice is to comply to a standard, named and defined as
 *MessageDTO* (specified with the help of *Pydantic* in src/schemas/message_dto.py), so a
-certain number of fields is expected in an exact way. These fields are looked up into the
-POSTed request's body to the */v1/messages* endpoint.
+certain number of fields is expected in an exact way at /v1/messages. These fields are
+looked up into the POSTed request's body.
+In the documentation (more details further below) plenty of valid examples are included!
 
 Development Technologies Used
 =============================
@@ -27,6 +28,10 @@ Development Technologies Used
 
 Deployment
 ==========
+
+To deploy to any of the current environments, first you will have to create a properly
+written .env file in src/. To know what to write in it, there's an .envtemplate file that
+provides the correct guidance!
 
 Production
 ----------
