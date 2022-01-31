@@ -33,6 +33,9 @@ To deploy to any of the current environments, first you will have to create a pr
 written .env file in src/. To know what to write in it, there's an .envtemplate file that
 provides the correct guidance!
 
+In production though, you would usually prefer to not write an .env file but to write
+the env variables in a yml file instead.
+
 Production
 ----------
 ::
